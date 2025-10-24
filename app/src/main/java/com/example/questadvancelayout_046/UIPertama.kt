@@ -42,7 +42,7 @@ fun ActivitasPertama(modifier: Modifier) {
             text = stringResource(id= R.string.univ),
             fontSize = 18.sp
         )
-        Spacer(modifier = Modifier.height(height = 100.dp))
+        Spacer(modifier = Modifier.height(height = 25.dp))
 
         Card(
             modifier = Modifier
@@ -50,7 +50,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 .fillMaxSize(fraction = 1f)
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(
-                containerColor = Color.Blue
+                containerColor = Color.DarkGray
             )
         ){
             Row(
