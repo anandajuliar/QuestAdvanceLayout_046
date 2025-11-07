@@ -232,5 +232,18 @@ fun MenuItemCard(
                 .padding(horizontal = 16.dp),
             verticalAlignment = Alignment.CenterVertically
         ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = title,
+                tint = Color.White,
+                modifier = Modifier.size(24.dp)
+            )
+            Spacer(modifier = Modifier.width(16.dp))
+            Icon(
+                imageVector = Icons.Default.ArrowForward,
+                contentDescription = "Arrow",
+                tint = Color.White
+            )
+        }
     }
 }
