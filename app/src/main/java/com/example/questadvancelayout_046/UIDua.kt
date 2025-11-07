@@ -107,4 +107,22 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                 )
             }
             Spacer(modifier = Modifier.height(8.dp))
+            Text(
+                text = "Via Via Artisan Bakery",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.White
+            )
+            Text(
+                text = "@viaviaartisanbakery",
+                fontSize = 14.sp,
+                color = Color.Gray
+            )
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = "Artisan Bakery Yogyakarta",
+                fontSize = 16.sp,
+                color = Color.White
+            )
+            Spacer(modifier = Modifier.height(32.dp))
 }
