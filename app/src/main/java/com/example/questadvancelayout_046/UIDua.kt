@@ -57,4 +57,20 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                 .padding(bottom = 80.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) { Spacer(modifier = Modifier.height(60.dp))
-
+            Box(
+                modifier = Modifier
+                    .size(100.dp)
+                    .clip(CircleShape)
+                    .background(Color.Transparent),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.logo_bakery),
+                    contentDescription = "Profile Picture",
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier
+                        .fillMaxSize()
+                )
+            }
+            Spacer(modifier = Modifier.height(16.dp))
+}
