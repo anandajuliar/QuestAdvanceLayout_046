@@ -156,4 +156,19 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                     verticalAlignment = Alignment.CenterVertically,
                     horizontalArrangement = Arrangement.Center
                 ) {
-                    }
+                    Icon(
+                        imageVector = Icons.Default.Person,
+                        contentDescription = "Logout",
+                        tint = Color.White
+                    )
+
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = "Logout",
+                        color = Color.White,
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold
+                    )
+                }
+            }
+}
