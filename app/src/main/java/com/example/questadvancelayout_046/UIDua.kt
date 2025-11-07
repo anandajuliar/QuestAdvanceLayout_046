@@ -73,4 +73,38 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                 )
             }
             Spacer(modifier = Modifier.height(16.dp))
+            Row(
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(vertical = 8.dp)
+            ) {
+                Image(
+                    painter = painterResource(id = R.drawable.ig),
+                    contentDescription = "Instagram",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
+                Image(
+                    painter = painterResource(id = R.drawable.fb),
+                    contentDescription = "Facebook",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
+                Image(
+                    painter = painterResource(id = R.drawable.wa),
+                    contentDescription = "WhatsApp",
+                    contentScale = ContentScale.Crop,
+                    modifier = Modifier
+                        .size(size = 45.dp)
+                        .padding(horizontal = 4.dp)
+                        .clip(CircleShape)
+                )
+            }
+            Spacer(modifier = Modifier.height(8.dp))
 }
