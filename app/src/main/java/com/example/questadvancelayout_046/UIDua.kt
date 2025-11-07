@@ -211,3 +211,10 @@ fun SocialMediaIcon(
         )
     }
 }
+
+@Composable
+fun MenuItemCard(
+    icon: ImageVector,
+    title: String
+) {
+}
