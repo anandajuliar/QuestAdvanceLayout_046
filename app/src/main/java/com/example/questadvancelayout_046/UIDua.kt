@@ -47,7 +47,7 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
     Box(
         modifier = Modifier
             .fillMaxSize()
-            .background(Color.Black)
+            .background(Color(0xFFD2B48C))
     ) {
         Column(
             modifier = Modifier
@@ -179,7 +179,7 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
             ){
                 Text(
                     text = "© 2025 Via Via Artisan Bakery",
-                    color = Color.White.copy(alpha = 0.4f),
+                    color = Color.Black.copy(alpha = 0.4f),
                     fontSize = 11.sp,
                     fontWeight = FontWeight.Light,
                     modifier = Modifier
