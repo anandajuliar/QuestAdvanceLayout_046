@@ -125,4 +125,17 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                 color = Color.White
             )
             Spacer(modifier = Modifier.height(32.dp))
+
+            MenuItemCard(
+                icon = Icons.Default.Lock, title = "Privacy"
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            MenuItemCard(
+                icon = Icons.Default.AccountCircle, title = "Riwayat Transaksi"
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            MenuItemCard(
+                icon = Icons.Default.Settings, title = "Pengaturan"
+            )
+            Spacer(modifier = Modifier.height(32.dp))
 }
