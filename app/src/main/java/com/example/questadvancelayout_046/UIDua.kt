@@ -171,4 +171,23 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                     )
                 }
             }
+
+            Box(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .height(60.dp)
+            ){
+                Text(
+                    text = "© 2025 Via Via Artisan Bakery",
+                    color = Color.White.copy(alpha = 0.4f),
+                    fontSize = 11.sp,
+                    fontWeight = FontWeight.Light,
+                    modifier = Modifier
+                        .align(Alignment.Center)
+                        .padding(top = 16.dp)
+                )
+            }
+        }
+    }
+}
 }
