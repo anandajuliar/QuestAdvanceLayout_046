@@ -244,6 +244,12 @@ fun MenuItemCard(
                 contentDescription = "Arrow",
                 tint = Color.White
             )
+            Text(
+                text = title,
+                color = Color.White,
+                fontSize = 16.sp,
+                modifier = Modifier.weight(1f)
+            )
         }
     }
 }
