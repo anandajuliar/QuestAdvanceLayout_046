@@ -138,4 +138,22 @@ fun PraktikumPage(modifier: Modifier = Modifier) {
                 icon = Icons.Default.Settings, title = "Pengaturan"
             )
             Spacer(modifier = Modifier.height(32.dp))
-}
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp)
+                    .height(50.dp),
+                colors = CardDefaults.cardColors(
+                    containerColor = Color.Red
+                ),
+                shape = RoundedCornerShape(70.dp)
+            ) {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(horizontal = 16.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.Center
+                ) {
+                    }
